@@ -11,20 +11,27 @@ Bonus: Creați un form pentru a doua persoană și comparați BMI-urile. -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<form > 
-		<label>nume</label><input type="text" class="nume1">
-		<label>anul nasterii: </label>
-		<input type="date" 
-				id="birthDate1" 
-				value=""
-				min="1950-01-01"
-				 max="2023-12-31">
-		<label>inaltime</label><input type="number" class="height1">
-		<label>greutate</label><input type="number" class="weight1">
+	
+	<form class="form1 margins"> 
+		<!-- <div > -->
+		<label class="paddingforLabels">nume <input type="text" class="nume1"></label>
+		<label class="paddingforLabels">anul nasterii: 
+			<input type="date" 
+			id="birthDate1" 
+			value=""
+			min="1950-01-01"
+			 max="2023-12-31">			
+		</label>
+		<label class="paddingforLabels">inaltime <input type="number" class="height1"></label>
+		<label class="paddingforLabels">greutate <input type="number" class="weight1"></label>
 	</form>
-	<button class="btn">calculate</button>
+
+	<div class="form1">
+	<button class="btn">calculate</button><p id="rezultat"></p>
+	</div>
 <script src="script.js"></script>
 </body>
 </html>

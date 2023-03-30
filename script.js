@@ -11,7 +11,7 @@ let nume1 = document.querySelector('.nume1'),
 	}
 btn.addEventListener('click', function() {
 	let user1 = calculate_BMI(Number(weight1.value), Number(heigth1.value));
-	console.log(user1);
+	document.querySelector('#rezultat').textContent = `${nume1.value} are urmatorul BMI: ${user1}`;
 })
 
 

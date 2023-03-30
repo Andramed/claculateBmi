@@ -1,0 +1,22 @@
+.form1 {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    width: 300px;
+    margin: 0px auto;
+}
+
+.paddingforLabels {
+    padding: 5px;
+}
+
+.margins {
+    margin: 100px auto 0px auto;
+}
+
+.form1 > .btn {
+    margin: auto;
+}
